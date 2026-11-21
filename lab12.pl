@@ -1,12 +1,12 @@
 % Directed edges between cities
 edge('Dammam', 'Qatif').
+edge('Dammam', 'Riyadh').
 edge('Qatif', 'Madinah').
 edge('Qatif', 'Dammam').
 edge('Madinah', 'Makkah').
 edge('Madinah', 'Taif').
 edge('Madinah', 'Tabuk').
 edge('Makkah', 'Madinah').
-edge('Makkah', 'Tabuk').
 edge('Makkah', 'Riyadh').
 edge('Tabuk', 'Taif').
 edge('Taif', 'Tabuk').
